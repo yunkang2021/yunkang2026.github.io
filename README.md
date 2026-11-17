@@ -1,24 +1,35 @@
 # Yun Kang — personal academic website
 
-This repository is a static, responsive GitHub Pages migration of the available files from Yun Kang's legacy ASU Public Web site.
+This repository contains Yun Kang's static, responsive academic website. It was
+rebuilt from the available legacy ASU Public Web files and revised in November
+2026 using the current curriculum vitae as the authoritative academic source.
 
 ## Structure
 
-- `index.html` — biography, contact information, research interests, awards, and service
+- `index.html` — academic profile and research overview
 - `research.html` — research programs and topics
-- `lab.html` — Modeling Lab for Social Insects
-- `publications.html` — peer-reviewed publications, submissions, and preprints
-- `people.html` — students, researchers, visitors, and collaborators
-- `teaching.html` — archived teaching information
-- `mentoring.html` — Math–Social Biology Co-Mentoring Program
-- `conferences.html` — mathematical biology conferences
+- `lab.html` — Mathematical Modeling Lab
+- `publications.html` — selected recent and representative publications
+- `people.html` — current researchers, PhD alumni, and scholars
+- `teaching.html` — teaching philosophy, curriculum, and courses
+- `mentoring.html` — mentoring philosophy and pathways
+- `conferences.html` — academic leadership, talks, and service
 - `assets/` — shared responsive styles and navigation behavior
 
 Legacy filenames redirect to their new locations so old bookmarks continue to work.
 
-## Source limitations
+## Design and content
 
-The supplied archive did not include the original `files/` or `pictures/` folders. The migrated site therefore removes missing image placeholders and renders unavailable local downloads as clearly labeled archived resources instead of broken links. Add those folders later and restore the corresponding links when the assets become available.
+The site preserves the ASU maroon-and-gold visual identity while using an
+original, accessible design with responsive navigation, semantic HTML,
+structured profile metadata, reduced-motion support, and print styling.
+
+## Legacy source limitations
+
+The supplied archive did not include the original `files/` or `pictures/`
+folders. Missing image and download references were not carried into the new
+public presentation. The original content remains recoverable from repository
+history if those source assets become available later.
 
 ## GitHub Pages
 
